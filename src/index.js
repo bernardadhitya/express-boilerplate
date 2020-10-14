@@ -1,5 +1,5 @@
 import server from './app';
 
-server.listen(3000, function () {
-  console.log('Example app listening on port 3000!');
+server.listen(8200, function () {
+  console.log('Example app listening on port 8200!');
 });
