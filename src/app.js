@@ -1,9 +1,8 @@
 import express from 'express';
+import indexRoutes from './indexRoutes';
 const app = express();
 
-app.get('/', function (req, res) {
-  res.send('Hello World!');
-});
+indexRoutes(app);
 
 const server = require('http').Server(app);
 
